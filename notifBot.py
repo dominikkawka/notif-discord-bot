@@ -9,8 +9,8 @@ load_dotenv()
 
 DISCORD_TOKEN=os.getenv('DISCORD_TOKEN')
 CHANNEL_ID=int(os.getenv('CHANNEL_ID'))
-TIMEZONE=ZoneInfo('Europe/London')
-MEETING_TIME='15:30'
+TIMEZONE=ZoneInfo('America/Los_Angeles')
+MEETING_TIME='07:30'
 START_DATE= date.fromisoformat('2026-01-14') #year-month-day
 COMMUNITY_AGENDA = os.getenv('COMMUNITY_AGENDA')
 
